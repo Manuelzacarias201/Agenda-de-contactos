@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('./src/images/fondodecontactos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 600px;
+}
+
+.inputs, .functions {
+    margin-bottom: 20px;
+}
+
+.inputs h2, .functions h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff9100f0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #a45800;
+}
+button:active{
+    background-color: #034b13;
+    box-shadow: 0 0 5px rgb(0, 0, 0.15);
+}
+input[type="search"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.functions button {
+    width: auto;
+    margin-right: 10px;
+}
+
+h3 {
+    color: #333;
+}
+
+.contactos {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.contactos p {
+    margin: 5px 0;
+    padding: 5px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
